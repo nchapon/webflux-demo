@@ -10,6 +10,9 @@ public class ShowEvent {
     private String id;
     private Date date;
 
+    public ShowEvent() {
+    }
+
     public ShowEvent(String id, Date date) {
         this.id = id;
         this.date = date;
